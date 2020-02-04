@@ -13,7 +13,14 @@
   "rules": {
     "react/jsx-no-target-blank": 0,
     "func-names": 0,
-    "max-len": 0,
+    "max-len": [
+      2,
+      {
+        "code": 80,
+        "tabWidth": 4,
+        "ignoreUrls": true
+      }
+    ],
     "no-unused-vars": 0,
     "no-script-url": 0,
     "react/no-unescaped-entities": 0,
@@ -26,7 +33,7 @@
     "global-require": 0,
     "react/prop-types": 0,
     "comma-dangle": [
-      "off"
+      "on"
     ],
     "parser": "babel-eslint",
     "rules": {
